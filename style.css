@@ -173,6 +173,25 @@ a.pane:hover .name { color: var(--ruby); }
 
 .pair-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 
+.story h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin: 4rem 0 0;
+}
+.story h2 + p { margin-top: 0.75rem; }
+
+.gallery {
+  width: min(var(--page) - 5rem, 100vw - 2 * clamp(16px, 4vw, 40px));
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(14rem, 100%), 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 0;
+}
+.story .gallery figure { margin: 0; }
+.story .gallery img { aspect-ratio: 3 / 4; object-fit: cover; }
+
 .next { margin-top: 5rem; max-width: 30rem; }
 .next p { margin: 0 0 0.75rem; color: var(--muted); }
 
