@@ -23,7 +23,7 @@ body {
   margin: 0;
   background: var(--glass);
   color: var(--ink);
-  font-family: "Literata", Georgia, serif;
+  font-family: "Literata", "Gowun Batang", Georgia, serif;
   font-optical-sizing: auto;
   font-size: 1.0625rem;
   line-height: 1.65;
