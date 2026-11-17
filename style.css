@@ -190,7 +190,7 @@ a.pane:hover .name { color: var(--ruby); }
   margin: 1.5rem 0 0;
 }
 .story .gallery figure { margin: 0; }
-.story .gallery img { aspect-ratio: 3 / 4; object-fit: cover; }
+.story .gallery img, .story .gallery video { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
 
 .next { margin-top: 5rem; max-width: 30rem; }
 .next p { margin: 0 0 0.75rem; color: var(--muted); }
